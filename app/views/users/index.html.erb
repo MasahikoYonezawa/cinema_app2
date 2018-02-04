@@ -4,7 +4,7 @@
 <%= will_paginate %>
 
 <!--  検索拡張機能  -->
-<p>user search</p>
+
 <%# form_tag(users_path, method: :get) do %>
   <%# text_field_tag :search %>
   <%# submit_tag 'Search' %>
@@ -15,7 +15,8 @@
   <%# submit_tag 'Search', :name => nil %>
 <%# end %>
 
-<ul class="users">
+<ul class="users users-index">
+  <h3>User search</h3>
   <%= render 'users/search' %> 　<!-- searchパーシャル呼出 -->
   <%= render @users %>
 </ul>

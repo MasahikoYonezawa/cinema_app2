@@ -1,8 +1,16 @@
 # ユーザー
-User.create!(name:  "Example User",
-             email: "example@railstutorial.org",
-             password:              "foobar",
-             password_confirmation: "foobar",
+# User.create!(name:  "Example User",
+#             email: "example@railstutorial.org",
+#             password:              "foobar",
+#             password_confirmation: "foobar",
+#             admin: true,
+#             activated: true,
+#             activated_at: Time.zone.now)
+             
+User.create!(name:  "Masahiko Yonezawa",
+             email: "y.masahiko0802@gmail.com",
+             password:              "Gera0802",
+             password_confirmation: "Gera0802",
              admin: true,
              activated: true,
              activated_at: Time.zone.now)
