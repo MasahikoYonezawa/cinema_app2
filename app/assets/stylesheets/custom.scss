@@ -17,9 +17,10 @@ html{
 
 body {
   padding-top: 60px;
-  background-image:  image-url("background.jpg");
-  background-repeat:  no-repeat;
+  background-image:  image-url("background2.jpg");
+  background-repeat:  repeat;
   background-size:  cover;
+  background-position: center center;
   // background-attachment:  fixed;
   height:  100%;
   width: 100%;
@@ -91,13 +92,13 @@ img {
 }
 */
 
-.navbar-right{
-  li{
-    a{
-      color:#ffffff;
-    }
-  }
-}
+// .navbar-right{
+//   li{
+//     a{
+//       color:#ffffff;
+//     }
+//   }
+// }
 
 /* footer */
 
@@ -212,6 +213,9 @@ aside {
 
 .unfollow-btn{
   background-color: lightgray;
+  &:hover {
+      background-color: #A9A9A9;
+    }
 }
 
 /* forms */
@@ -316,11 +320,39 @@ span.picture {
 }
 
 .jumbotron{
-  background-color:  rgba(211,211,211,0.5);
+  background-color:  rgba(255,255,255,0.5);
 }
 
 .about-detail{
-  background-color:  rgba(211,211,211,0.5);
-  padding:  15px 15px 50px 15px;
+  background-color:  rgba(255,255,255,0.5);
+  padding:  15px 15px 100px 15px;
   border-radius: 10px;
+}
+
+.col-md-6{
+  background-color:  rgba(255,255,255,0.5);
+  padding:  15px 15px 15px 15px;
+  border-radius: 10px;
+}
+
+.col-md-4{
+  background-color:  rgba(255,255,255,0.5);
+  padding:  15px 15px 15px 15px;
+  border-radius: 10px 0px 0px 10px;
+  margin: 5px 0px 5px 0px;
+  bordr-color:#000000;
+}
+
+.col-md-8{
+  background-color:  rgba(255,255,255,0.5);
+  padding:  15px 15px 15px 15px;
+  border-radius: 0px 10px 10px 10px;
+  margin: 5px 0px 5px 0px;
+}
+
+.users{
+  background-color:  rgba(255,255,255,0.5);
+  padding:  15px 15px 15px 15px;
+  border-radius: 10px 10px 10px 10px;
+  margin: 5px 5px 5px 5px;
 }
